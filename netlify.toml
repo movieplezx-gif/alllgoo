@@ -1,0 +1,10 @@
+[build]
+  command = "echo 'No build command needed for static site'"
+  publish = "/"
+  functions = "netlify/functions"
+
+[dev]
+  framework = "#static"
+
+[functions]
+  included_files = ["assets/logo.mp4"]
